@@ -1,3 +1,7 @@
 body {
 	background: blue;
 }
+section img {
+	border-style: double 1px;
+	padding-left: 20px;
+}
