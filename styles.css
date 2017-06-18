@@ -10,8 +10,16 @@ h1 {
 }
 .center {
 	text-align: center;
-	padding-left: 1px;
 	}
 #color {
 	color: white;
 }	
+table {
+	background-image: url(../slope2.jpg);
+}
+.dcolor {
+	color: yellow;
+}
+#scolor {
+	color: black;
+}
