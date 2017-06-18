@@ -8,3 +8,10 @@ section img {
 h1 {
 	margin: 40px;
 }
+.center {
+	text-align: center;
+	padding-left: 1px;
+	}
+#color {
+	color: white;
+}	
