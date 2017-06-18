@@ -1,3 +1,82 @@
 body {
 	background: blue;
+	max-width: 960px;
+	margin: auto;
 }
+main {
+	width: 100%;
+	display: block;
+}
+section {
+	width: 100%;
+	display: inline-block;
+}
+img {
+	width: 40%;
+    border-radius: 5px;
+}
+h1 {
+	margin: 60px 0 60px 0;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255,125,175);
+}
+footer {
+	text-align: center;
+    margin: 80px 0 0 0;
+}
+#email-color {
+	color: black;
+}	
+table {
+	background-image: url(../slope2.jpg);
+	padding: 5px;
+	border-style: groove solid;
+}
+.data-color {
+	color: yellow;
+}
+#symbol-color {
+	color: black;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: oblique;
+	text-indent: 50px;
+	margin: 30px;
+}
+a:visited {
+	color: yellow;
+}
+.align-label {
+	padding-left: 23px;
+}
+@media screen and (max-width: 500px) {
+  body {
+     font-size: 8px;
+  }
+}
+@media screen and (max-width: 500px) {
+	body {
+	}
+	    section {
+	      width: 100%;
+	    }
+	    main {
+	      width: 100%;
+	    }
+}
+@media screen and (max-width: 499px) {
+	body {
+	}
+	    main {
+	    }
+	        form {
+	        }
+	            div {
+	            }
+	                label {
+	                }
+	                    .align-label {
+                          padding-left: 12px;
+	                    }
